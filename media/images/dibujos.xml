@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:53f8aa30b71b4ebc86d73a7d03f3a355:fd48bbb6943b3d592eaf76b9f9b46812:80ce2fa2642958f2e0cf30461f73ef1a$ -->
+<TextureAtlas imagePath="dibujos.png">
+    <SubTexture name="Muralla" x="1784" y="2" width="119" height="594"/>
+    <SubTexture name="bestiary" x="1905" y="41" width="100" height="37"/>
+    <SubTexture name="cesped1" x="2" y="1310" width="454" height="340"/>
+    <SubTexture name="cesped2" x="2" y="968" width="454" height="340"/>
+    <SubTexture name="cesped3" x="2" y="626" width="454" height="340"/>
+    <SubTexture name="cielo1" x="1260" y="604" width="454" height="340"/>
+    <SubTexture name="cielo2" x="804" y="604" width="454" height="340"/>
+    <SubTexture name="fondo1" x="804" y="2" width="800" height="600"/>
+    <SubTexture name="iniciofinalefectofinal" x="2" y="2" width="800" height="622"/>
+    <SubTexture name="maloarmaduracaminando0001" x="1905" y="254" width="35" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0002" x="1979" y="234" width="35" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0003" x="1942" y="196" width="35" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0004" x="1905" y="196" width="35" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0005" x="1979" y="176" width="35" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0006" x="1942" y="138" width="35" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0007" x="1940" y="486" width="33" height="56" frameX="-65" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0008" x="1905" y="486" width="33" height="56" frameX="-65" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0009" x="2010" y="466" width="33" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0010" x="1975" y="466" width="33" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0011" x="1940" y="428" width="33" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0012" x="1905" y="428" width="33" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0013" x="2010" y="408" width="33" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0014" x="1975" y="408" width="33" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0015" x="1705" y="168" width="31" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0016" x="1672" y="168" width="31" height="56" frameX="-65" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0017" x="1639" y="168" width="31" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0018" x="1606" y="168" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0019" x="1738" y="110" width="31" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0020" x="1705" y="110" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0021" x="1672" y="110" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0022" x="1639" y="110" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0023" x="1639" y="110" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0024" x="1639" y="110" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0025" x="1606" y="110" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0026" x="2004" y="582" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0027" x="1971" y="582" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0028" x="1938" y="544" width="31" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0029" x="1905" y="544" width="31" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0030" x="2008" y="524" width="31" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0031" x="1975" y="524" width="31" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0032" x="1940" y="370" width="33" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0033" x="1905" y="370" width="33" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0034" x="2010" y="350" width="33" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0035" x="1975" y="350" width="33" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0036" x="1940" y="312" width="33" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0037" x="1905" y="312" width="33" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0038" x="2012" y="292" width="33" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0039" x="1977" y="292" width="33" height="56" frameX="-65" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0040" x="1942" y="254" width="33" height="56" frameX="-65" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0041" x="1905" y="138" width="35" height="56" frameX="-64" frameY="-23" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0042" x="1979" y="118" width="35" height="56" frameX="-64" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0043" x="1942" y="80" width="35" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0044" x="1905" y="80" width="35" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0045" x="2007" y="60" width="35" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0046" x="2007" y="2" width="35" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0047" x="2007" y="2" width="35" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="maloarmaduracaminando0048" x="2007" y="2" width="35" height="56" frameX="-65" frameY="-24" frameWidth="149" frameHeight="108"/>
+    <SubTexture name="options" x="1905" y="2" width="100" height="37"/>
+    <SubTexture name="welcome_playButton" x="1606" y="2" width="176" height="106"/>
+</TextureAtlas>

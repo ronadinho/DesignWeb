@@ -72,7 +72,6 @@ package
 		{
 			this.removeEventListener(Event.ENTER_FRAME, mover);
 			enemigo.x -= velocidad_movimiento;
-			trace("Tiempo pasado : " + elapsed);
 			trace("Tiempo previo : " + timePrevious);
 			trace("Tiempo actual : " +timeCurrent);
 		}

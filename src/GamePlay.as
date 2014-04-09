@@ -4,6 +4,7 @@ package
 	import starling.display.Sprite;
 	import starling.events.Event;
 	import starling.events.Touch;
+	import starling.events.TouchPhase;
 	import starling.events.TouchEvent;
 	import flash.utils.getTimer;
 	
@@ -12,13 +13,21 @@ package
 		private var muralla:Image;
 		private var terreno:Image;
 		private var sky:Image;
+		private var flecha:Image;
 		private var enemigo:Enemigos;
+		
+		private var touch:Touch;
+		private var touchX:Number;
+		private var touchY:Number;
 		
 		private var timePrevious:Number;
 		private var timeCurrent:Number;
 		private var elapsed:Number
 		
-		private var velocidad_movimiento:Number = 0.5;
+		private var velocidad_movimiento:Number = 1.0;
+		
+		//Array de enemigos
+		private var enemigosAnimados:Vector.<Enemigos>;
 		
 		
 		public function GamePlay() 
@@ -56,31 +65,64 @@ package
 			muralla.scaleY = 0.75;
 			this.addChild(muralla);
 			
-			//Creamos el enemigo
-			enemigo = new Enemigos();
-			enemigo.x = 710;
-			enemigo.y = 200;
-			enemigo.scaleX = 1.5;
-			enemigo.scaleY = 1.5;
-			this.addChild(enemigo);
-			//Movemos de forma automatica a los enemigos
-			this.addEventListener(Event.ENTER_FRAME,checkElapsed);
-			enemigo.addEventListener(Event.ENTER_FRAME,mover);
+			//Añadimos la flecha
+			//flecha = new Image(Assets.getAtlas().getTexture("flecha"));
+			//flecha.y = 150;
+			//flecha.scaleX = 0.25;
+			//this.addChild(flecha);
+			
+			enemigosAnimados = new Vector.<Enemigos>();
+			//this.addEventListener(Event.ENTER_FRAME,checkElapsed);95-x//255-y
+			addEventListener(TouchEvent.TOUCH,onTouch);
+			generarEnemigos();
+		}
+		private function onTouch(event:TouchEvent):void 
+		{
+			touch = event.getTouch(stage);
+			//Comprobamos que se pulsa dentro de la pantalla
+			if (touch!=null) {
+				//Capturamos el evento cuando se deja de pulsar
+				if (touch.phase == "ended") {
+					touchX = touch.globalX;
+					touchY = touch.globalY;
+					trace("Has pulsado en x: " + touchX + " y en y : " + touchY);
+					//flecha.x = touchX;
+					//flecha.y = touchY;
+				}
+			}
 			
 		}
 		private function mover(e:Event):void 
 		{
-			this.removeEventListener(Event.ENTER_FRAME, mover);
-			enemigo.x -= velocidad_movimiento;
+			//this.removeEventListener(Event.ENTER_FRAME, mover);
+			for (var i:int = 0; i < enemigosAnimados.length; i++) {
+				enemigosAnimados[i].x -= velocidad_movimiento;
+			}
 		}
-		private function checkElapsed(event:Event):void 
-		{
-			timePrevious=timeCurrent;
-			timeCurrent = getTimer();
-			elapsed=(timeCurrent-timePrevious)*1;
+		//private function checkElapsed(event:Event):void 
+		//{
+			//timePrevious=timeCurrent;
+			//timeCurrent = getTimer();
+			//elapsed=(timeCurrent-timePrevious)*1;
+		//}
+		private function generarEnemigos():void
+		{	
+			for (var i:int = 0; i < 10; i++) {
+				enemigo = new Enemigos();
+				if (i % 2 != 0) {
+					enemigo.x = 710;
+					}
+				else {
+					enemigo.x = 780;
+				}
+				enemigo.scaleX = 1.5;
+				enemigo.scaleY = 1.5;
+				enemigo.y = i * 30 + 200;
+				this.addChild(enemigo);
+				enemigosAnimados.push(enemigo);
+			}
+			addEventListener(Event.ENTER_FRAME, mover);
 		}
-		
-		
 	}
 
 }
